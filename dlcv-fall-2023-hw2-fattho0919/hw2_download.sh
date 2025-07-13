@@ -1,0 +1,1 @@
+gdown https://drive.google.com/uc?id=1Zx0UNgIuUaftS-gRt-M79N4XgnAdcZ8o -O ./hw2_checkpoint/hw2_1.pth

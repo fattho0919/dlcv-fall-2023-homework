@@ -1,0 +1,2 @@
+gdown https://drive.google.com/uc?id=1Nt9H8wUuPzazExhB2HdINtcjR-zj4Gxp -O ./checkpoint/hw1_2_inference.pth
+gdown https://drive.google.com/uc?id=1HLqGJK1xfZQ2WohEL_Nuo8yt-S8hYhcX -O ./checkpoint/hw1_3_inference.pth
