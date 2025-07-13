@@ -78,17 +78,40 @@ python hw3_3.py
 ## 📁 File Structure
 
 ```
-├── dataset.py                    # Dataset loading and preprocessing
-├── tokenizer.py                  # Text tokenization utilities
-├── decoder_adapter.py            # Adapter implementation for decoder
-├── original_decoder.py           # Original decoder architecture
-├── hw3_1_*.py                    # Problem 1 scripts
-├── hw3_2_*.py                    # Problem 2 scripts (different methods)
-├── hw3_3.py                      # Problem 3 implementation
-├── p2_evaluate.py                # Evaluation metrics for problem 2
-├── encoder.json                  # Model configuration
-├── vocab.bpe                     # BPE vocabulary
-└── requirements.txt              # Dependencies
+├── README.md                # This file
+├── requirements.txt         # Dependencies
+├── src/                     # Source code
+│   ├── problem1/           # Image Captioning
+│   │   ├── hw3_1_inference.py
+│   │   └── hw3_1_train.py
+│   ├── problem2/           # Parameter-Efficient Fine-tuning
+│   │   ├── hw3_2_inference.py
+│   │   ├── hw3_2_finetune.py
+│   │   ├── hw3_2_adapter.py
+│   │   ├── hw3_2_lora.py
+│   │   └── hw3_2_prefix_tuning.py
+│   ├── problem3/           # Advanced VQA
+│   │   └── hw3_3.py
+│   ├── models/             # Model implementations
+│   │   ├── decoder_adapter.py
+│   │   └── original_decoder.py
+│   └── utils/              # Utility functions
+│       ├── dataset.py
+│       ├── tokenizer.py
+│       └── p2_evaluate.py
+├── configs/                # Configuration files
+│   ├── encoder.json
+│   └── vocab.bpe
+├── scripts/                # Shell scripts
+│   ├── hw3_1.sh
+│   ├── hw3_2.sh
+│   ├── get_dataset.sh
+│   └── hw3_download.sh
+└── results/                # Training results
+    ├── *.json
+    ├── *.pth
+    ├── *.csv
+    └── *.png
 ```
 
 ## 🔧 Key Features

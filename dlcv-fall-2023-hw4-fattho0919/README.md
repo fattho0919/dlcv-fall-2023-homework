@@ -40,9 +40,12 @@ bash hw4.sh <dataset_path> <output_path>
 ## 📁 File Structure
 
 ```
-├── grade.py                      # Evaluation script
-├── hw4.sh                        # Main inference script
+├── README.md                     # This file
 ├── requirements.txt              # Dependencies
+├── grade.py                      # Evaluation script
+├── scripts/                      # Shell scripts
+│   └── hw4.sh                   # Main inference script
+├── outputs/                      # Generated outputs
 └── nerf_pl/                      # NeRF implementation
     ├── train.py                  # Training script
     ├── eval.py                   # Evaluation utilities
@@ -50,21 +53,22 @@ bash hw4.sh <dataset_path> <output_path>
     ├── opt.py                    # Configuration and options
     ├── losses.py                 # Loss functions
     ├── metrics.py                # Evaluation metrics
-    ├── models/
+    ├── models/                   # Model implementations
     │   ├── nerf.py              # NeRF model implementation
     │   └── rendering.py         # Volume rendering functions
-    ├── datasets/
+    ├── datasets/                 # Dataset loaders
     │   ├── blender.py           # Blender synthetic dataset
     │   ├── llff.py              # LLFF real dataset
     │   ├── hw4_dataset.py       # Custom dataset loader
     │   ├── ray_utils.py         # Ray generation utilities
     │   └── depth_utils.py       # Depth processing
-    ├── utils/
+    ├── utils/                    # Utility functions
     │   ├── visualization.py     # Rendering and visualization
     │   ├── optimizers.py        # Custom optimizers
     │   └── warmup_scheduler.py  # Learning rate scheduling
     ├── hw4_checkpoints/         # Pre-trained models
-    └── logs/                    # Training logs and checkpoints
+    ├── logs/                    # Training logs and checkpoints
+    └── docs/                    # Documentation
 ```
 
 ## 🔧 Key Features

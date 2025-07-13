@@ -85,18 +85,43 @@ bash hw1_3.sh <test_data_path> <output_data_path>
 ## 📁 File Structure
 
 ```
-├── hw1_1_inference.py          # Problem 1 inference script
-├── hw1_1a_train.py            # Problem 1a training
-├── hw1_1b_train.py            # Problem 1b training
-├── hw1_2_inference.py          # Problem 2 inference script
-├── hw1_2ssl_train.py          # SSL backbone training
-├── hw1_2[a-e].py              # Different SSL strategies
-├── hw1_3_inference.py          # Problem 3 inference script
-├── hw1_3[a-b]_train.py        # Segmentation training scripts
-├── pspnet.py                  # PSPNet implementation
-├── mean_iou_evaluate.py       # Evaluation metrics
-├── viz_mask.py               # Visualization utilities
-└── requirements.txt           # Dependencies
+├── README.md                  # This file
+├── requirements.txt           # Dependencies
+├── src/                       # Source code
+│   ├── problem1/             # Image Classification
+│   │   ├── hw1_1_inference.py
+│   │   ├── hw1_1a_train.py
+│   │   ├── hw1_1b_train.py
+│   │   └── hw1_1a_val.py, hw1_1b_val.py
+│   ├── problem2/             # Self-Supervised Learning
+│   │   ├── hw1_2_inference.py
+│   │   ├── hw1_2ssl_train.py
+│   │   └── hw1_2[a-e].py
+│   ├── problem3/             # Semantic Segmentation
+│   │   ├── hw1_3_inference.py
+│   │   ├── hw1_3a_train.py
+│   │   └── hw1_3b_train.py
+│   ├── models/               # Model implementations
+│   │   └── pspnet.py
+│   └── utils/                # Utility functions
+│       ├── mean_iou_evaluate.py
+│       └── viz_mask.py
+├── scripts/                  # Shell scripts
+│   ├── hw1_1.sh
+│   ├── hw1_2.sh
+│   ├── hw1_3.sh
+│   ├── get_dataset.sh
+│   └── hw1_download_ckpt.sh
+├── checkpoint/               # Pre-trained models
+├── model_data/              # Additional model files
+├── hw1_data/                # Dataset
+├── outputs/                 # Generated outputs
+│   ├── problem3_predictions/
+│   ├── problem3_masks/
+│   └── testing/
+└── results/                 # Training results
+    ├── *.csv
+    └── *.png
 ```
 
 ## 🔧 Key Features

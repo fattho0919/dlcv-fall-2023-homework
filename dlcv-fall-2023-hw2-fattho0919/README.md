@@ -86,15 +86,38 @@ bash hw2_3.sh <target_domain> <test_data_path> <output_csv_path>
 ## 📁 File Structure
 
 ```
-├── digit_classifier.py        # Base classifier implementation
-├── DANN.py                   # Domain Adversarial Neural Network
-├── UNet.py                   # UNet architecture for diffusion
-├── DDPMnDDIM.py             # Diffusion models implementation
-├── hw2_1_*.py               # Problem 1 scripts
-├── hw2_2_*.py               # Problem 2 scripts
-├── hw2_3_*.py               # Problem 3 scripts
-├── utils.py                 # Utility functions
-└── requirements.txt         # Dependencies
+├── README.md                # This file
+├── requirements.txt         # Dependencies
+├── src/                     # Source code
+│   ├── problem1/           # Digit Classification
+│   │   ├── hw2_1_inference.py
+│   │   └── hw2_1_train.py
+│   ├── problem2/           # Diffusion Models
+│   │   ├── hw2_2_inference.py
+│   │   └── hw2_2_interpolation.py
+│   ├── problem3/           # Domain Adaptation
+│   │   ├── hw2_3_inference.py
+│   │   ├── hw2_3_svhn_*.py
+│   │   └── hw2_3_usps_*.py
+│   ├── models/             # Model implementations
+│   │   ├── DANN.py
+│   │   ├── UNet.py
+│   │   ├── DDPMnDDIM.py
+│   │   └── digit_classifier.py
+│   └── utils/              # Utility functions
+│       └── utils.py
+├── scripts/                # Shell scripts
+│   ├── hw2_1.sh
+│   ├── hw2_2.sh
+│   ├── hw2_3.sh
+│   ├── get_dataset.sh
+│   └── hw2_download.sh
+├── outputs/                # Generated outputs
+│   └── hw2_2_output/
+└── results/                # Training results
+    ├── *.csv
+    ├── *.png
+    └── *.pth
 ```
 
 ## 🔧 Key Features
