@@ -5,6 +5,7 @@ This repository contains my implementations for the DLCV course homework assignm
 ## 📋 Course Overview
 
 **Course:** Deep Learning for Computer Vision  
+**Professor:**  Yu-Chiang Frank Wang (王鈺強)  
 **Semester:** Fall 2023  
 **Student ID:** R11521616
 
