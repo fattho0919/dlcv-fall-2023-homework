@@ -91,9 +91,7 @@ venv.bak/
 */outputs/
 */results/
 */*_output/
-*/*_result/
 *.png
 *.jpg
 *.jpeg
 *.csv
-*.pdf
