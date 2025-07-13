@@ -89,9 +89,8 @@ venv.bak/
 # Output files
 */output/
 */outputs/
-*/results/
+*/results/*.json
 */*_output/
-*.png
 *.jpg
 *.jpeg
 *.csv

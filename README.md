@@ -11,24 +11,28 @@ This repository contains my implementations for the DLCV course homework assignm
 ## 🚀 Homework Assignments
 
 ### [HW1: Image Classification and Semantic Segmentation](dlcv-fall-2023-hw1-fattho0919/)
+📄 **[Report PDF](dlcv-fall-2023-hw1-fattho0919/hw1_r11521616.pdf)**
 - **Image Classification:** ResNet implementation with different training strategies
 - **Self-Supervised Learning:** SSL backbone training and fine-tuning
 - **Semantic Segmentation:** PSPNet implementation for satellite image segmentation
 - **Key Skills:** PyTorch, CNN architectures, data augmentation, transfer learning
 
 ### [HW2: Domain Adaptation and Diffusion Models](dlcv-fall-2023-hw2-fattho0919/)
+📄 **[Report PDF](dlcv-fall-2023-hw2-fattho0919/hw2_R11512616.pdf)**
 - **Digit Classification:** Cross-domain digit recognition (MNIST → SVHN, USPS)
 - **Domain Adaptation:** DANN (Domain Adversarial Neural Networks) implementation
 - **Diffusion Models:** DDPM and DDIM for image generation
 - **Key Skills:** Domain adaptation, generative models, adversarial training
 
 ### [HW3: Vision-Language Models and Parameter-Efficient Tuning](dlcv-fall-2023-hw3-fattho0919/)
+📄 **[Report PDF](dlcv-fall-2023-hw3-fattho0919/hw3_r11521616.pdf)**
 - **Vision-Language Understanding:** Image captioning and VQA
 - **Parameter-Efficient Fine-tuning:** Adapter, LoRA, and Prefix Tuning
 - **Model Optimization:** Efficient adaptation of large pre-trained models
 - **Key Skills:** Transformer architectures, efficient fine-tuning, multimodal learning
 
 ### [HW4: Neural Radiance Fields (NeRF)](dlcv-fall-2023-hw4-fattho0919/)
+📄 **[Report PDF](dlcv-fall-2023-hw4-fattho0919/hw4_r11521616.pdf)**
 - **3D Scene Reconstruction:** Novel view synthesis using NeRF
 - **Volume Rendering:** Differentiable rendering pipeline
 - **Neural Implicit Representations:** Learning 3D scenes from 2D images
